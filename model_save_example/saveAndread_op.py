@@ -1,3 +1,7 @@
+'''
+通过生成.pb文件保存变量，以及加载变量
+'''
+
 #保存计算图中的节点  
 import tensorflow as tf  
 from tensorflow.python.framework import graph_util  
